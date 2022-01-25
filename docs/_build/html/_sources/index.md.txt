@@ -1,0 +1,6 @@
+# g
+```{toctree}
+:caption: getting
+getting-started/install/git
+:hidden:
+```

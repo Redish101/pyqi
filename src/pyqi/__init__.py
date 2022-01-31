@@ -1,6 +1,6 @@
 from os import system as sys
 
-def pyqi():   
+def main():   
     if __name__ == __main__ :
         version = 0
         x = 0

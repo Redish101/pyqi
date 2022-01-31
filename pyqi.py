@@ -3,7 +3,7 @@ from os import system as sys
 version = 0
 x = 0
 py = 0
-print("Pyqi for linux v1.0-beta")
+print("Pyqi v1.0-beta")
 print("请输入您要安装的Python版本:")
 print("[1]Python3.7")
 print("[2]Python3.8")

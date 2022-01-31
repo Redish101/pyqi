@@ -6,9 +6,9 @@ name: Upload Python Package
 
 on:
   # 当master分支有push时，触发action
-  push: 
-    branches:
-      - dev
+  # push: 
+    # branches:
+      # - dev
   
   # 当一个pr被合并到master时，触发action
   pull_request:
@@ -16,8 +16,8 @@ on:
       - dev
   
   # 当发布时，触发action
-  #release:
-  #  types: [created]
+  release:
+    types: [created]
 
 
 jobs:

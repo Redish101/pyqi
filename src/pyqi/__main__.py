@@ -1,7 +1,6 @@
 from os import system as sys
 
 def pyqi():
-
     version = 0
     x = 0
     py = 0

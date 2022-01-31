@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="pyqi-v1",
-    version="1.0.3-beta2",
+    version="1.1.0",
     author="Redish101",
     author_email="jiayunluo@outlook.com",
     description="It can help you quicker install python",
@@ -13,7 +13,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/redish101/pyqi",
     project_urls={
-        "Bug Tracker": "https://github.com/redish101/pyqi/issues",
+        "Bug Tracker": "https://github.com/Redish101/pyqi/discussions",
     },
     classifiers=[
         "Programming Language :: Python :: 3",

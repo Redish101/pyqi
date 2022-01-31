@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="pyqi-v1",
-    version="1.0.0-beta",
+    version="1.0.1-beta",
     author="Redish101",
     author_email="jiayunluo@outlook.com",
     description="It can help you quicker install python",

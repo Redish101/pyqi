@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="pyqi-v1",
-    version="1.1.0",
+    version="1.1.1",
     author="Redish101",
     author_email="jiayunluo@outlook.com",
     description="It can help you quicker install python",
@@ -22,5 +22,5 @@ setuptools.setup(
     ],
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src"),
-    python_requires=">=3.7",
+    python_requires=">=3.6",
 )

@@ -1,0 +1,10 @@
+pyqi package
+============
+
+Module contents
+---------------
+
+.. automodule:: pyqi
+   :members:
+   :undoc-members:
+   :show-inheritance:

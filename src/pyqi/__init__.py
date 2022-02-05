@@ -1,17 +1,34 @@
 from os import system as sys
-
+'''
+导入system模块，以运行系统命令
+'''
 def main():   
-    version = 0
-    x = 0
-    py = 0
+    '''
+    pyqi主函数
+    '''
+    version = int(0)
+    x = int(0)
+    py = int(0)
+    '''
+    初始化变量
+    '''
     print("Pyqi v1.0-beta")
     print("请输入您要安装的Python版本:")
     print("[1]Python3.7")
     print("[2]Python3.8")
     print("[3]Python3.9")
     print("===========================")
+    '''
+    打印询问消息
+    '''
     version = int(input(">>> "))
+    '''
+    确认安装版本
+    '''
     x = input("是否继续?(y/n):")
+    '''
+    确认，并开始安装进程
+    '''
     if x == "y" :
         print("正在下载Python")
         if version == 1 :
@@ -42,3 +59,8 @@ def main():
         sys("cd python-3.9.1")
         sys("./configure --prefix=/usr/local/python3")
         sys("sudo make install")
+if __name__ == '__main__' :
+    main()
+    '''
+    执行主函数
+    '''

@@ -1,0 +1,7 @@
+pyqi
+====
+
+.. toctree::
+   :maxdepth: 4
+
+   pyqi

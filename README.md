@@ -1,6 +1,7 @@
 # Python quick install
 
-> 一个轻量化的Python安装器
+> 一个轻量化的Python安装器  
+
 ![PyPI](https://img.shields.io/pypi/v/pyqi-v1)
 ![Github action](https://github.com/redish101/pyqi/workflows/Upload%20Python%20Package/badge.svg)
 ![GitHub release](https://img.shields.io/github/v/release/redish101/pyqi?include_prereleases)

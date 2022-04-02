@@ -1,4 +1,4 @@
-# Python quick install
+<h1 align="center">Python quick installer</h1>
 
 > 一个轻量化的Python安装器  
 
